@@ -5,6 +5,8 @@ from GreyMatter.SenseCells.tts import tts
 profile = open('profile.yaml')
 profile_data = yaml.safe_load(profile)
 profile.close
+from brain import brain
+
  
 name = profile_data['name']
 city_name = profile_data['city_name']
@@ -18,16 +20,16 @@ def main():
         audio = r.listen(source)
      
     try:
-        speech_text =  r.recognize_google(audio).lower().replace("'","")
-        print ("I think you said ' " + speech_text + "'")
-        tts(speech_text)  
+        speech_text =  r.recognize_google(audio).lower().replace("'","").strip()
+        print ("I think you said '" + speech_text + "'")
+        brain(name, speech_text) 
     except sr.UnknownValueError:
         print("Sorry I could not understand the audio message")
     
     except sr.RequestError:
         print("Could not request results from Google Speech Recognition service {0}".format(e))
         
-    return 0
+
 
 
 main()    
