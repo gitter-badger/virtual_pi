@@ -13,3 +13,7 @@ http://www.portaudio.com/download.html
 PyAudio
 https://people.csail.mit.edu/hubert/pyaudio/
 
+Building a Virtual Assistant for Raspberry Pi: The practical guide for constructing a voice-controlled virtual assistant 1st ed. Edition, Kindle Edition by Tanay Pant  (Author)
+
+https://www.amazon.co.uk/gp/product/B01J7JIA10/ref=oh_aui_d_detailpage_o00_?ie=UTF8&psc=1
+http://amzn.eu/aMD1TIC
