@@ -1,5 +1,7 @@
 # Virtual Raspberry Pi Assistant
 
+[![Join the chat at https://gitter.im/virtual_pi/Lobby](https://badges.gitter.im/virtual_pi/Lobby.svg)](https://gitter.im/virtual_pi/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a small repository to hold some experiments on building a Virtual Assistant using Raspberry PI
 
 
